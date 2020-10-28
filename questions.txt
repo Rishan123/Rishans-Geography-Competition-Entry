@@ -1,2 +1,11 @@
-How were the layers formed? By minerals forming layers, denser ones at the bottom, less denser ones closer to the top 	       	
+How were the layers of the Earth formed? By minerals forming layers, denser ones at the bottom, less denser ones closer to the top           
 What creates low and high tides? The moon's gravitational pull
+What do geographers think created life on Earth? Asteroids (containing microscopic amounts of life-creating minerals) bombarding Earth
+What do humans do better than animals? Sweat
+Are there still hunter-gatherer tribes on Earth? Yes
+Where do geographers think humans originated? Africa
+What causes earthquakes and tsunamis? Tectonic plates colliding with each other
+Is it true that the water that we drink is the same water that dinosaurs drank millions of years ago? True, due to the water cycle
+True or false? Our ancient ancestors conducted cannibalism in pre-history times. True
+True or false? The UK's population has increased despite COVID-19. True
+What is this project running on? Raspberry Pi.
