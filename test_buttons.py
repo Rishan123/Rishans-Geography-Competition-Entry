@@ -1,11 +1,12 @@
 import RPi.GPIO as GPIO
 import time
 
+pin = 25
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(12,GPIO.IN)
+GPIO.setup(pin,GPIO.IN)
 
 while True:
-    if GPIO.input(12):
+    if GPIO.input(pin):
         print('hi')
     else:
         print('bye')

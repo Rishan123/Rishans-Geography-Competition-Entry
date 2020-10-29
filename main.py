@@ -35,6 +35,11 @@ while True:
         incorrect_buttons = [c,b,a]
         if d:
             GPIO.output(8,True)
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
             print('well done, moving on to next question')
             question += 1
             time.sleep(0.5)
@@ -49,6 +54,11 @@ while True:
         incorrect_buttons = [d,c,a]
         if b:
             GPIO.output(8,True)
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
             print('well done, moving on to next question')
             question += 1
             time.sleep(0.5)
@@ -62,6 +72,11 @@ while True:
         incorrect_buttons = [d,c,b]
         if a:
             GPIO.output(8,True)
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
             print('well done, moving on to next question')
             question += 1
             time.sleep(0.5)
@@ -76,6 +91,11 @@ while True:
         incorrect_buttons = [d,b,a]
         if c:
             GPIO.output(8,True)
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
             print('well done, moving on to next question')
             question += 1
             time.sleep(0.5)
@@ -90,6 +110,11 @@ while True:
         incorrect_buttons = [c,b,a]
         if d:
             GPIO.output(8,True)
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
             print('well done, moving on to next question')
             question += 1
             time.sleep(0.5)
@@ -104,6 +129,11 @@ while True:
         incorrect_buttons = [d,b,a]
         if c:
             GPIO.output(8,True)
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
             print('well done, moving on to next question')
             question += 1
             time.sleep(0.5)
@@ -118,6 +148,11 @@ while True:
         incorrect_buttons = [c,b,a]
         if d:
             GPIO.output(8,True)
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
             print('well done, moving on to next question')
             question += 1
             time.sleep(0.5)
@@ -133,6 +168,11 @@ while True:
         incorrect_buttons = [c,d,b]
         if a:
             GPIO.output(8,True)
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
             print('well done, moving on to next question')
             question += 1
             time.sleep(0.5)
@@ -148,6 +188,11 @@ while True:
         incorrect_buttons = [a,d,c]
         if b:
             GPIO.output(8,True)
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
             print('well done, moving on to next question')
             question += 1
             time.sleep(0.5)
@@ -163,6 +208,11 @@ while True:
         incorrect_buttons = [c,b,a]
         if d:
             GPIO.output(8,True)
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
             print('well done, moving on to next question')
             question += 1
             time.sleep(0.5)
@@ -178,7 +228,12 @@ while True:
         incorrect_buttons = [d,c,b]
         if a:
             GPIO.output(8,True)
-            print('well done, moving on to next question')
+            for i in range(512):
+                for halfstep in range(8):
+                    for pin in range(4):
+                        GPIO.output(motor_pins[pin], halfstep_seq[halfstep][pin])
+                    time.sleep(0.001)
+            print('Congrats! You have completed all the questions!')
             question += 1
             time.sleep(0.5)
             # Green LED is on
